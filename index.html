@@ -2,151 +2,170 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
-    crossorigin="anonymous"></script>
-  <style>
-    body {
-      background-color: rgb(26, 23, 23);
-      color: rgb(255, 255, 255);
-    }
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: rgb(26, 23, 23);
+            color: rgb(255, 255, 255);
+        }
 
-    nav {
-      background-color: rgba(30, 5, 41, 0.486);
+        nav {
+            background-color: rgba(30, 5, 41, 0.486);
 
-    }
+        }
 
-    .album-container {
-      text-align: center;
+        .album-container {
+            text-align: center;
 
-    }
+        }
 
-    .album-container img {
-      width: 250px;
-      height: 250px;
-    }
+        .album-container img {
+            width: 250px;
+            height: 250px;
+        }
 
-    .album-artist {
-      display: block;
-    }
+        .album-artist {
+            display: block;
+        }
 
-    .album-Cover {}
+        .album-Cover {}
 
-    .album-title {
-      margin-top: 0.5em;
-      margin-bottom: 0px;
-    }
+        .album-title {
+            margin-top: 0.5em;
+            margin-bottom: 0px;
+        }
 
-    .album-Artist {}
+        .album-Artist {}
 
-    .album-genre {}
+        .album-genre {}
 
-    .album-Duration {}
-  </style>
+        .album-Duration {}
+    </style>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#fav-albums">Favourite Albums</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#album-review">Album Review</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
+    <nav class="navbar navbar-expand-lg navbar-dark">
 
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#fav-albums">Favourite Albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#album-review">Album Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div id="breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
     </div>
-  </nav>
-
-  <section id="fav-albums">
-    <div class="conatainer">
-      <div class="row py-5">
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="album-container">
-            <img src="220px-Rhcp9.jpg" class="img-fluid">
-            <h4 class="album-title">By the Way</h4>
-            <span class="album-artist">Red Hot Chili Peppers</span>
-            <span class="album-genre">Rock</span>
-          </div>
+    <section class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">My Favourite Music!</h1>
+            <p class="lead">This is a sample of my favourite artists and albums</p>
+            <hr class="my-4">
+            <p>The content includes my favourite and least favourite albums, recommendations and reviews!</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="album-container">
-            <img src="dp.jpg" class="img-fluid">
-            <h4 class="album-title">Discovery</h4>
-            <span class="album-artist">Daft Punk</span>
-            <span class="album-genre">Electro/Dance</span>
-          </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="album-container">
-            <img src="Linkin_Park_Hybrid_Theory_Album_Cover.jpg" class="img-fluid">
-            <h4 class="album-title">Hybrid Theory</h4>
-            <span class="album-artist">Linkin Park</span>
-            <span class="album-genre">Rock/Metal</span>
-          </div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="album-container">
-            <img src="ck.jpg" class="img-fluid">
-            <h4 class="album-title">Tapestry</h4>
-            <span class="album-artist">Carole King</span>
-            <span class="album-genre">Jazz/Soul</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <br>
-  <section id="album-review">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4" class="img-fluid">
-          <img src="bytheway.jpg" height="300px" width="300px">
-        </div>
-
-        <div class="col-12 col-md-8">
-          <div>
-            <h4>By the Way - Red Hot Chili Peppers</h4>
-            <div class="d-flex flex-column justify-content-center h-100">
-              <div>
-                By the Way is the eighth studio album by American rock band Red Hot Chili Peppers, released July 9, 2002
-                . It sold more than 286,000 copies in its first week, and peaked at number two on
-                the Billboard 200. Singles included "By the Way," "The Zephyr Song," "Can't Stop," "Dosed" and
-                "Universally Speaking". The lyrical subject matter vocalist Anthony Kiedis addresses in By the Way is a
-                divergence from previous Chili Peppers albums, with Kiedis taking a more candid and reflective approach
-                to his lyrics.
-
-                By the Way was lauded by critics as a departure from the band's previous styles, and is recognized for
-                the melodic and subdued emotions given by the Chili Peppers.
-              </div>
-
+    </section>
+    <section id="fav-albums">
+        <div class="conatainer">
+            <div class="row py-5">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="220px-Rhcp9.jpg" class="img-fluid">
+                        <h4 class="album-title">By the Way</h4>
+                        <span class="album-artist">Red Hot Chili Peppers</span>
+                        <span class="album-genre">Rock</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="dp.jpg" class="img-fluid">
+                        <h4 class="album-title">Discovery</h4>
+                        <span class="album-artist">Daft Punk</span>
+                        <span class="album-genre">Electro/Dance</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="Linkin_Park_Hybrid_Theory_Album_Cover.jpg" class="img-fluid">
+                        <h4 class="album-title">Hybrid Theory</h4>
+                        <span class="album-artist">Linkin Park</span>
+                        <span class="album-genre">Rock/Metal</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="album-container">
+                        <img src="ck.jpg" class="img-fluid">
+                        <h4 class="album-title">Tapestry</h4>
+                        <span class="album-artist">Carole King</span>
+                        <span class="album-genre">Jazz/Soul</span>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-  </section>
+    </section>
+    <br>
+    <section id="album-review">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4" class="img-fluid">
+                    <img src="bytheway.jpg" height="300px" width="300px">
+                </div>
+
+                <div class="col-12 col-md-8">
+                    <div>
+                        <h4>By the Way - Red Hot Chili Peppers</h4>
+                        <div class="d-flex flex-column justify-content-center h-100">
+                            <div>
+                                By the Way is the eighth studio album by American rock band Red Hot Chili Peppers,
+                                released July 9, 2002
+                                . It sold more than 286,000 copies in its first week, and peaked at number two on
+                                the Billboard 200. Singles included "By the Way," "The Zephyr Song," "Can't Stop,"
+                                "Dosed" and
+                                "Universally Speaking". The lyrical subject matter vocalist Anthony Kiedis addresses in
+                                By the Way is a
+                                divergence from previous Chili Peppers albums, with Kiedis taking a more candid and
+                                reflective approach
+                                to his lyrics.
+
+                                By the Way was lauded by critics as a departure from the band's previous styles, and is
+                                recognized for
+                                the melodic and subdued emotions given by the Chili Peppers.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
 </body>
 
